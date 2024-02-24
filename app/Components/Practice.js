@@ -11,7 +11,6 @@ const Practice = () => {
         setDesc("")
         console.log(datashow)
     }
-
     let rendingData = <h2>Data Not Show</h2>
     if (datashow.length > 0) {
         rendingData = datashow.map((elem, i) => {
