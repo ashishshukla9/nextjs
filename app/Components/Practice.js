@@ -24,8 +24,6 @@ const Practice = () => {
             )
         })
     }
-
-
     return (
         <div>
             <form onSubmit={formHandler} className='flex justify-between'>
