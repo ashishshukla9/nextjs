@@ -1,8 +1,9 @@
 'use client'
 import axios from 'axios'
 import React, { useState } from 'react'
+import DynamicRouting from './Components/DynamicRouting'
 // import ToList from './Components/ToList'
-import Practice from './Components/Practice'
+// import Practice2 from './Components/Practice2'
 
 const page = () => {
   const [Images, setImages] = useState([])
@@ -21,7 +22,7 @@ const page = () => {
   return (
     <div className='px-5 py-5'>
       {/* <ToList /> */}
-      <Practice />
+      <DynamicRouting />
       <button onClick={getImage} className='px-5 py-5 bg-red-700 text-white rounded'>Get API</button>
 
       <div className='px-5 py-4'>
